@@ -1,0 +1,45 @@
+code: entando-pda-plugin-bundle
+description: My Test Bundle - exported from entando-demo
+components:
+  widgets:
+    - widgets/pda-connections-descriptor.yaml
+    - widgets/pda-overtime-graph-descriptor.yaml
+    - widgets/pda-process-definition-descriptor.yaml
+    - widgets/pda-process-form-descriptor.yaml
+    - widgets/pda-process-list-descriptor.yaml
+    - widgets/pda-summary-card-descriptor.yaml
+    - widgets/pda-task-attachments-descriptor.yaml
+    - widgets/pda-task-comments-descriptor.yaml
+    - widgets/pda-task-completion-form-descriptor.yaml
+    - widgets/pda-task-details-descriptor.yaml
+    - widgets/pda-task-list-descriptor.yaml
+    - widgets/pda_login_buttons-descriptor.yaml
+    - widgets/pda_sidebar_navigation-descriptor.yaml
+  pageModels:
+    - pageModels/pda_dashboard-descriptor.yaml
+    - pageModels/pda_keycloak-descriptor.yaml
+    - pageModels/pda_single_widget-descriptor.yaml
+    - pageModels/pda_smart_inbox-descriptor.yaml
+    - pageModels/pda_task_details-descriptor.yaml
+  fragments:
+    - fragments/pda_connections-descriptor.yaml
+    - fragments/pda_login_buttons-descriptor.yaml
+    - fragments/pda_overtime_graph-descriptor.yaml
+    - fragments/pda_process_definition-descriptor.yaml
+    - fragments/pda_process_form-descriptor.yaml
+    - fragments/pda_process_list-descriptor.yaml
+    - fragments/pda_sidebar_navigation-descriptor.yaml
+    - fragments/pda_summary_card-descriptor.yaml
+    - fragments/pda_task_attachments-descriptor.yaml
+    - fragments/pda_task_comments-descriptor.yaml
+    - fragments/pda_task_completion_form-descriptor.yaml
+    - fragments/pda_task_details-descriptor.yaml
+    - fragments/pda_task_list-descriptor.yaml
+  pages:
+    - pages/pda_connections-descriptor.yaml
+    - pages/pda_smart_inbox-descriptor.yaml
+    - pages/pda_task_details-descriptor.yaml
+    - pages/pda_process_definition-descriptor.yaml
+    - pages/pda_dashboard-descriptor.yaml
+  plugins:
+    - plugins/pda-plugin-descriptor.yaml
